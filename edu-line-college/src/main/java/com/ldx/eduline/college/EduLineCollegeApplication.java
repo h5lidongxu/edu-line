@@ -8,6 +8,7 @@ public class EduLineCollegeApplication {
 
     public static void main(String[] args) {
         SpringApplication.run(EduLineCollegeApplication.class, args);
+        System.out.println("启动完成");
     }
 
 }
