@@ -7,12 +7,11 @@
         <artifactId>edu-line-parent</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
-
-    <groupId>com.ldx</groupId>
-    <artifactId>edu-line-college</artifactId>
+    <groupId>com.ldx.edu-line</groupId>
+    <artifactId>edu-line-generate</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>edu-line-college</name>
-    <description>学院模块</description>
+    <name>edu-line-generate</name>
+    <description>Demo project for Spring Boot</description>
 
     <properties>
         <java.version>1.8</java.version>
@@ -23,6 +22,17 @@
             <groupId>com.ldx.edu-line</groupId>
             <artifactId>edu-line-common</artifactId>
             <version>0.0.1-SNAPSHOT</version>
+            <exclusions>
+                <exclusion>
+                    <groupId>org.mybatis</groupId>
+                    <artifactId>mybatis</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+        <dependency>
+            <groupId>com.baomidou</groupId>
+            <artifactId>mybatis-plus-generator</artifactId>
+            <version>3.1.1</version>
         </dependency>
     </dependencies>
 

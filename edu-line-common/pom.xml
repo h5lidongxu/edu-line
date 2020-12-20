@@ -6,7 +6,6 @@
         <groupId>com.ldx.edu-line</groupId>
         <artifactId>edu-line-parent</artifactId>
         <version>0.0.1-SNAPSHOT</version>
-        <relativePath/>  <!-- lookup parent from repository -->
     </parent>
     <groupId>com.ldx.edu-line</groupId>
     <artifactId>edu-line-common</artifactId>

@@ -6,7 +6,6 @@
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
         <version>2.2.1.RELEASE</version>
-        <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.ldx.edu-line</groupId>
     <artifactId>edu-line-parent</artifactId>
@@ -47,8 +46,7 @@
     <modules>
         <module>edu-line-college</module>
         <module>edu-line-common</module>
-        <module>renren-fast</module>
-        <module>renren-generator</module>
+        <module>edu-line-generate</module>
     </modules>
 
     <dependencyManagement>
